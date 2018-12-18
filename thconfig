@@ -1,0 +1,31 @@
+encoding  utf-8
+language ru
+
+source main.th
+
+
+
+export model
+export model -format survex
+
+layout normal
+     #symbol-set BCRA
+     symbol-set AUT
+     doc-author "Paweł Krawczyk"
+     doc-title "Суу-Акан"
+     scale 1 400
+     statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+     legend on
+     map-comment "Сары Тала"
+     symbol-show point cave-station
+     symbol-show group cave-centerline
+     debug station-names
+     #map-header 0 0 off 
+endlayout
+
+export map -format pdf -layout normal -o cave.pdf
+export map -o cave.kml
+export map -o cave.xvi
