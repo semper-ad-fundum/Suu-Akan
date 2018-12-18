@@ -3,13 +3,10 @@ language ru
 
 source main.th
 
-
-
-export model
-export model -format survex
+export model -o output/cave.lox
+export model -format survex -o output/cave.3d
 
 layout normal
-     #symbol-set BCRA
      symbol-set AUT
      doc-author "Paweł Krawczyk"
      doc-title "Суу-Акан"
@@ -20,12 +17,8 @@ layout normal
      statistics copyright all
      legend on
      map-comment "Сары Тала"
-     symbol-show point cave-station
-     symbol-show group cave-centerline
-     debug station-names
-     #map-header 0 0 off 
 endlayout
 
-export map -format pdf -layout normal -o cave.pdf
-export map -o cave.kml
-export map -o cave.xvi
+export map -format pdf -layout normal -o output/cave.pdf
+export map -o output/cave.kml
+export map -o output/cave.xvi
