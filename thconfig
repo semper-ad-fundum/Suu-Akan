@@ -3,8 +3,8 @@ language ru
 
 source main.th
 
-export model -o output/cave.lox
-export model -format survex -o output/cave.3d
+export model -o output/suuakan.lox
+export model -format survex -o output/suuakan.3d
 
 layout normal
      symbol-set AUT
@@ -17,8 +17,13 @@ layout normal
      statistics copyright all
      legend on
      map-comment "Сары Тала"
+     # for debugging
+     #symbol-show point cave-station
+     #symbol-show group cave-centerline
+     #debug station-names
+     #map-header 0 0 off 
 endlayout
 
-export map -format pdf -layout normal -o output/cave.pdf
-export map -o output/cave.kml
-export map -o output/cave.xvi
+export map -format pdf -layout normal -o output/suuakan.pdf
+export map -o output/suuakan.kml
+export map -o output/suuakan.xvi
