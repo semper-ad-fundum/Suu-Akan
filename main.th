@@ -13,8 +13,10 @@ input plan.th2
 join scrap1 scrap2
 
 map schema -projection plan
-  scrap1
   scrap2
+  # break is required for Therion to properly draw overlapping corridors
+  break
+  scrap1
 endmap
 
 endsurvey
