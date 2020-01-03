@@ -7,7 +7,7 @@ survey suakan_1982 -title "Суу-Акан сёмка 1982 года" -entrance A
      units length feet
      
      cs lat-long
-     fix A1  43:21:14  43:24:7 1370
+     fix A1  43.354095  43.402149 1370
      
      data normal from to length compass clino left up down right
                   A1                   A2    28.56   140.41     0.00     0.00     0.00     0.00     0.00

@@ -137,6 +137,7 @@ point 1186.5 -1020.25 label -text "Окно"
 line pit -reverse on
   1159.25 -962.5
   1159.25 -962.5 1176.14 -1014.11 1154.0 -1051.0
+  smooth off
 endline
 
 area sump
@@ -269,11 +270,13 @@ point 845.5 -1585.0 continuation
 line wall -reverse on
   879.0 -1981.25
   879.0 -1981.25 897.88 -1961.12 905.375 -1959.75
+  smooth off
 endline
 
 line wall
   898.0 -1978.38
   898.0 -1978.38 888.76 -1985.64 888.25 -1984.62
+  smooth off
 endline
 
 line pit
@@ -360,11 +363,13 @@ endline
 line pit
   971.75 -668.25
   971.75 -668.25 936.75 -663.0 933.75 -671.0
+  smooth off
 endline
 
 line pit
   967.75 -696.75
   967.75 -696.75 963.75 -670.5 974.5 -674.75
+  smooth off
 endline
 
 line rock-border -close on -reverse on
@@ -379,6 +384,7 @@ endline
 line pit
   1051.25 -771.0
   1051.25 -771.0 1044.0 -815.5 1052.25 -821.5
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -864,6 +870,7 @@ endarea
 line border -id l141-887--1975
   892.125 -1962.875
   892.125 -1962.875 879.75 -1990.88 881.25 -1994.75
+  smooth off
 endline
 
 point 926.5 -1980.0 label -text "Эхо"
@@ -875,6 +882,7 @@ line floor-meander
   smooth off
   914.5 -1766.5 912.5 -1778.0 908.0 -1781.5
   903.5 -1785.0 875.0 -1804.0 878.5 -1819.5
+  smooth off
 endline
 
 area water
@@ -885,11 +893,13 @@ endarea
 line pit
   880.625 -1973.625
   880.625 -1973.625 876.0 -1992.38 879.875 -1995.75
+  smooth off
 endline
 
 line wall -id l138-907--1966 -subtype presumed
   898.0 -1978.38
   898.0 -1978.38 918.88 -1953.0 905.375 -1959.75
+  smooth off
 endline
 
 line wall
