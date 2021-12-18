@@ -1,5 +1,18 @@
 encoding  utf-8
-survey suakan_1982 -title "Суу-Акан сёмка 1982 года" -entrance A1 -namespace off
+
+#survey surface
+# centerline
+#  flags surface
+# date 2020.1.8
+#  cs lat-long
+#  fix K1 43.35333 43.40117 1397
+  
+#  data normal from to length compass clino
+#  K1 - 22 -90
+#  endcenterline
+#endsurvey
+
+survey suakan_1982 -title "Суу-Акан сёмка 1982 года" -entrance A01 -namespace off
  
    centerline
         
@@ -7,10 +20,16 @@ survey suakan_1982 -title "Суу-Акан сёмка 1982 года" -entrance A
      units length feet
      
      cs lat-long
-     fix A1  43.354095  43.402149 1370
+     # GML
+     fix A34 43.35315 43.40105 1397
+     fix A01  43.354095  43.402149 1370
      
      data normal from to length compass clino left up down right
-                  A1                   A2    28.56   140.41     0.00     0.00     0.00     0.00     0.00
+           A01                  A02    49.10 140 -90     0.00     0.00     0.00     0.00
+                  A02                  A03    11.09 140 0     0.00     0.00     0.00     0.00
+      A03                  A04    71.92 140 -90     0.00     0.00     0.00     0.00
+
+                  A04                  A2    28.56   140.41     0.00     0.00     0.00     0.00     0.00
                   A2                   A3     9.40   187.77     0.00     0.00     0.00     0.00     0.00
                   A3                   A4    14.38   222.61     0.00     0.00     0.00     0.00     0.00
                   A4                   A5    31.74   226.08     0.00     0.00     0.00     0.00     0.00

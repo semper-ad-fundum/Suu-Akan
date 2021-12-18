@@ -3,6 +3,7 @@ survey suakan -title "Суу-Акан" -namespace off
 
 input surveys/d1982.th
 input surveys/m2009.th
+#input surveys/surface.th
 
 centerline
   equate A87@suakan_1982 1@suakan_2009

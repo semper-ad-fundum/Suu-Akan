@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -2466 1828 138.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -132.0 -2466 1828 141.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} sources/MapToData/Suu-Akan_1982_2.png 0 {}
 
 
