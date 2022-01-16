@@ -4,7 +4,7 @@ encoding  utf-8
 survey vhod -title "входной колодец" -namespace off
   centerline
     cs long-lat
-    fix 0 43.402111 43.354111 1353
+    fix 0 43.402111 43.354111 1370
     date 2021.12.31 
     team "Павел Кравчик"
     team "Игорь Коммель"

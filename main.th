@@ -9,6 +9,9 @@ input surveys/echo.th
 input surveys/vodoprovod.th
 input surveys/gml.th
 input surveys/terrain.th
+input surveys/m2009.th
+
+equate 311 1@m2009
 
 input suu-0p.th2
 
@@ -17,6 +20,8 @@ map schema -projection plan
   vhod2-p
   break
   vhod-k2
+  m2009-p
+  break
   suu-0p
   break
   vodoprovod-p
