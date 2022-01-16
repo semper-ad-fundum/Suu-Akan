@@ -1,0 +1,40 @@
+encoding  utf-8
+# 2022.01.07 created by TopoDroid v 5.1.40
+
+survey echo -title "перекоп к ехо" -namespace off
+  centerline
+    date 2021.12.31 
+    team "Павел Кравчик"
+    team "Игорь Коммель"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    33 70 0.00 0.0 -90.0
+    # extend auto
+    70 . 7.90 112.7 86.8
+    70 . 8.43 128.0 78.3
+    70 . 7.28 310.5 43.6
+    extend right
+    70 71 1.54 347.6 -19.5
+    # extend auto
+    71 . 0.53 139.7 1.6
+    71 . 0.52 85.9 11.9
+    extend vertical
+    71 72 1.15 94.0 -31.2
+    # extend auto
+    72 . 0.47 336.7 -8.5
+    72 . 0.34 343.6 -59.8
+    72 . 0.63 352.6 61.8
+    72 . 4.03 50.3 -6.6
+    extend right
+    72 73 2.46 48.3 -12.0
+    # extend auto
+    73 . 0.43 143.2 17.3
+    73 . 0.70 172.8 85.6
+    73 . 2.62 77.3 -32.7
+    73 . 5.12 55.1 -16.5
+    extend right
+    73 74 2.09 64.9 -32.5
+  endcenterline
+endsurvey
+

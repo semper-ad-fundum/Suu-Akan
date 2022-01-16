@@ -1,0 +1,31 @@
+encoding  utf-8
+language ru
+
+source main.th
+
+export model -o output/suuakan.lox
+export model -format survex -o output/suuakan.3d
+
+layout normal
+     doc-author "Paweł Krawczyk"
+     doc-title "Суу-Акан"
+     #scale 1 400
+     statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+     legend on
+     map-comment "Сары Тала"
+     color map-fg 80
+     # for debugging
+     #symbol-show point cave-station
+     #symbol-show group cave-centerline
+     #debug station-names
+     #map-header 0 0 off 
+     symbol-hide group cave-centerline
+     symbol-hide point cave-station
+endlayout
+
+export map -format pdf -layout normal -o output/suuakan.pdf
+export map -o output/suuakan.kml
+export map -o output/suuakan.xvi

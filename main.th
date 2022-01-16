@@ -1,0 +1,26 @@
+encoding  utf-8
+survey suakan -title "Суу-Акан" -namespace off
+
+input surveys/vhod.th
+input surveys/vhod2.th
+input surveys/yug.th
+input surveys/sever.th
+input surveys/echo.th
+input surveys/vodoprovod.th
+input surveys/gml.th
+input surveys/terrain.th
+
+input suu-0p.th2
+
+map schema -projection plan
+  vhod-p
+  vhod2-p
+  break
+  vhod-k2
+  suu-0p
+  break
+  vodoprovod-p
+endmap
+
+endsurvey
+
