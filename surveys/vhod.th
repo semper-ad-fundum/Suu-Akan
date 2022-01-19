@@ -1,8 +1,8 @@
 encoding  utf-8
 # 2022.01.07 created by TopoDroid v 5.1.40
 
-survey vhod -title "входной колодец" -namespace off
-  centerline
+survey vhod -title "входной колодец" -namespace off -entrance 0
+  centerline -author 2022 "Paweł Krawczyk"
     cs long-lat
     fix 0 43.402111 43.354111 1370
     date 2021.12.31 

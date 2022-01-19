@@ -9,9 +9,15 @@ input surveys/echo.th
 input surveys/vodoprovod.th
 input surveys/gml.th
 input surveys/terrain.th
-input surveys/m2009.th
 
-equate 311 1@m2009
+# ход над большим залом в северной ветке, топосёмка 2009 года
+input surveys/m2009.th
+equate 311 1@rostov2009
+input surveys/m1982.th
+equate A79@rostov1982 27@rostov2009
+equate 316 A55@rostov1982
+join suu-0p m2009-p
+join suu-0p m2009-3-p
 
 input suu-0p.th2
 
@@ -21,6 +27,9 @@ map schema -projection plan
   break
   vhod-k2
   m2009-p
+  break
+  m2009-2-p
+  m2009-3-p
   break
   suu-0p
   break

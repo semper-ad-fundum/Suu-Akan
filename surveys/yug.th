@@ -2,7 +2,7 @@ encoding  utf-8
 # 2022.01.07 created by TopoDroid v 5.1.40
 
 survey yug -title "южная ветка к завалу" -namespace off
-  centerline
+  centerline  -author 2022 "Paweł Krawczyk"
     date 2021.12.31 
     team "Павел Кравчик"
     team "Игорь Коммель"

@@ -2,7 +2,7 @@ encoding  utf-8
 # 2022.01.07 created by TopoDroid v 5.1.40
 
 survey sever -title "северная ветка к сифону" -namespace off
-  centerline
+  centerline  -author 2022 "Paweł Krawczyk"
     date 2022.01.05 
     team "Павел Кравчик"
     team "Игорь Коммель"

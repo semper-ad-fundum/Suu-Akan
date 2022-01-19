@@ -18,12 +18,12 @@ layout normal
      map-comment "Сары Тала"
      color map-fg 80
      # for debugging
-     symbol-show point cave-station
-     symbol-show group cave-centerline
-     debug station-names
+     #symbol-show point cave-station
+     #symbol-show group cave-centerline
+     #debug station-names
      #map-header 0 0 off 
-     #symbol-hide group cave-centerline
-     #symbol-hide point cave-station
+     symbol-hide group cave-centerline
+     symbol-hide point cave-station
 endlayout
 
 export map -format pdf -layout normal -o output/suuakan.pdf
