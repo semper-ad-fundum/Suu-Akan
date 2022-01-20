@@ -9,7 +9,8 @@ export model -format survex -o output/suuakan.3d
 layout normal
      doc-author "Paweł Krawczyk"
      doc-title "Суу-Акан"
-     #scale 1 400
+     doc-author "Paweł Krawczyk"
+     doc-title "Суу-Акан"
      statistics explo all  
      statistics topo all
      statistics carto all
