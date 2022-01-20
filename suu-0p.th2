@@ -395,7 +395,7 @@ line wall
   -79.89 -1029.33
   -87.93 -1034.25
   -99.57 -1043.33
-  -113.0 -1038.0
+  -111.0 -1034.0
 endline
 
 line wall
@@ -430,7 +430,7 @@ point -28.89 -1179.48 clay
 
 point -62.95 -1200.96 clay
 
-point -107.95999999999998 -1049.47 water-flow -orientation 134.2
+point -92.95999999999998 -1057.47 water-flow -orientation 134.2
 
 point 274.19 -603.08 water-flow -orientation 171.9
 
@@ -1020,7 +1020,7 @@ point -2737.5 -5133.0 label -text "Вход под козырёк, паралл�
 
 line arrow
   338.5 -2590.0
-  175.0 -2674.0
+  170.0 -2670.0
 endline
 
 line rock-border
@@ -1280,7 +1280,7 @@ line section -id xx6 -direction both
   -203.0 -3906.0
 endline
 
-point -272.31 -3876.62 section -scrap suu-xx6
+point -313.31 -3874.62 section -scrap suu-xx6
 
 line wall
   -191.1 -3759.93
@@ -1436,7 +1436,7 @@ line chimney -close off -reverse on
   -98.0 -1088.0
   -113.0 -1078.0
   -122.55 -1065.95
-  -104.91 -1048.96
+  -106.0 -1050.0
   -95.87 -1042.19
   -85.39 -1035.69
   -73.81 -1033.4
@@ -2046,8 +2046,6 @@ point -1735.49 -5225.73 clay
 point -1672.91 -5262.10 clay
 
 point -1615.11 -5273.59 clay
-
-point -1890.14 -5227.25 water-flow -orientation 3.2
 
 point -1471.02 -5168.99 debris
 
@@ -3092,9 +3090,11 @@ area water
   0p-a1
 endarea
 
-point 106.0 6161.0 low-end
+point 240.0 6088.0 label -text "сифон"
 
-point 136.61 6185.46 continuation
+point 122.0 6173.0 low-end
+
+point 151.61 6195.46 continuation
 
 line wall
   -223.87 5806.57
@@ -6631,6 +6631,14 @@ point -38.96 5975.45 station -name "332"
 
 point 82.30 6146.54 station -name "333"
 
+line pit -reverse on
+  323.0 -2894.0
+  275.0 -2950.0
+  238.0 -3020.0
+  212.0 -3052.0
+  185.0 -3119.0
+endline
+
 endscrap
 
 
@@ -7043,7 +7051,7 @@ endscrap
 
 scrap suu-xx10 -projection none -scale [0 0 39.3701 0 0 0 1 0 m]
 
-line wall
+line wall -reverse on
   -1387.01 -5232.1
   subtype clay
   -1399.1 -5228.6
@@ -8121,7 +8129,7 @@ endscrap
 
 scrap vodoprovod-p -projection plan -scale [0 0 39.3701 0 0 0 1 0 m]
 
-point 738.33 -2368.98 label -text "Обводненая труба высотой 50 см, уходит налево потом направо, сильное эхо"
+point 855.33 -2367.98 label -text "Обводненая труба высотой 50 см, уходит налево потом направо, сильное эхо"
 
 point 114.74 -2442.09 station -name "81"
 
